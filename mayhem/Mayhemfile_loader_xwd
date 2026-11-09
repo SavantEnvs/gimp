@@ -1,0 +1,8 @@
+project: savantenvs/gimp
+target: loader_xwd-mined-4ca2845
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/loader_xwd-mined-4ca2845/testsuite
+cmds:
+  - cmd: /mayhem/loader_xwd
+    libfuzzer: true
