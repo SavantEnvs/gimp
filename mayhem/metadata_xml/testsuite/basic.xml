@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <tag name="Exif.Image.Make">Acme</tag>
+  <tag name="Exif.Image.Model">Cam 1</tag>
+  <tag name="Xmp.dc.title" type="LangAlt">Hello</tag>
+  <tag name="Exif.Photo.UserComment" encoding="base64">SGVsbG8=</tag>
+</metadata>

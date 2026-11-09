@@ -1,0 +1,8 @@
+project: savantenvs/gimp
+target: config_deserialize
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/config_deserialize/testsuite
+cmds:
+  - cmd: /mayhem/config_deserialize
+    libfuzzer: true

@@ -1,0 +1,8 @@
+project: savantenvs/gimp
+target: color_parse
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/color_parse/testsuite
+cmds:
+  - cmd: /mayhem/color_parse
+    libfuzzer: true

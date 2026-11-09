@@ -1,0 +1,8 @@
+project: savantenvs/gimp
+target: sgi_lib
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/sgi_lib/testsuite
+cmds:
+  - cmd: /mayhem/sgi_lib
+    libfuzzer: true

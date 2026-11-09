@@ -1,0 +1,8 @@
+project: savantenvs/gimp
+target: metadata_xml
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/metadata_xml/testsuite
+cmds:
+  - cmd: /mayhem/metadata_xml
+    libfuzzer: true

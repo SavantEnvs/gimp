@@ -1,0 +1,8 @@
+project: savantenvs/gimp
+target: icc_profile
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/icc_profile/testsuite
+cmds:
+  - cmd: /mayhem/icc_profile
+    libfuzzer: true

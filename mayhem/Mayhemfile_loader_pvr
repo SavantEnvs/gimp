@@ -1,0 +1,8 @@
+project: savantenvs/gimp
+target: loader_pvr
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/loader_pvr/testsuite
+cmds:
+  - cmd: /mayhem/loader_pvr
+    libfuzzer: true
