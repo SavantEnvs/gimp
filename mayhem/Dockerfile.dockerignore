@@ -1,0 +1,10 @@
+# Keep .git (the commit image carries full history) and build/ (GIMP's build needs it); drop build products.
+mayhem/_build
+/sgi_lib
+/config_deserialize
+/color_parse
+/icc_profile
+/metadata_xml
+/metadata_blob
+/loader_pvr
+/*-standalone
