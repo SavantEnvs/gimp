@@ -1,0 +1,8 @@
+project: savantenvs/gimp
+target: sgi_write-mined-cec7f3e
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/sgi_write-mined-cec7f3e/testsuite
+cmds:
+  - cmd: /mayhem/sgi_write
+    libfuzzer: true
